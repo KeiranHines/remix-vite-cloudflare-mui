@@ -13,6 +13,9 @@
     "typegen": "wrangler types"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.15.11",
     "@remix-run/cloudflare": "^2.8.0",
     "@remix-run/cloudflare-pages": "^2.8.0",
     "@remix-run/react": "^2.8.0",

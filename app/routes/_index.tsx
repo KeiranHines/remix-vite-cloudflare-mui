@@ -1,3 +1,4 @@
+import { Box } from "@mui/material";
 import type { MetaFunction } from "@remix-run/cloudflare";
 
 export const meta: MetaFunction = () => {
@@ -13,6 +14,7 @@ export const meta: MetaFunction = () => {
 export default function Index() {
   return (
     <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.8" }}>
+      <Box sx={{mt:2}}></Box>
       <h1>Welcome to Remix (with Vite and Cloudflare)</h1>
       <ul>
         <li>
